@@ -1,11 +1,11 @@
-var chalk = require('chalk').default;
+import { ICommandConfig } from './index';
 
-module.exports = exports = {
+export default {
   syntax: 'push',
 
   description: 'Pushes commits to submodules and updates root',
 
-  action: function () {
+  action() {
     console.log('Pushing...');
   }
-};
+} as ICommandConfig;
