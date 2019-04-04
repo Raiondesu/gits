@@ -14,7 +14,7 @@ export interface ICommandConfig {
   description?: string;
 
   options?: [string, string][];
-  alias?: string;
+  alias?: string | string[];
 
   action(this: typeof import('commander'), ...args: any[]): void;
 }
@@ -24,7 +24,11 @@ export default function (program: typeof import('commander')) {
     const localCommand = program.command(config.syntax);
 
     if (config.alias) {
-      localCommand.alias(config.alias);
+      if (typeof config.alias === 'string') {
+        localCommand.alias(config.alias);
+      } else if (Array.isArray(config.alias)) {
+        config.alias.forEach(alias => localCommand.alias(alias));
+      }
     }
 
     if (config.description) {
