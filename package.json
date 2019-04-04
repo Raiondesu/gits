@@ -37,10 +37,11 @@
     "chalk": "^2.4.2",
     "commander": "^2.20.0",
     "inquirer": "^6.2.2",
-    "simple-git": "^1.110.0"
+    "parse-git-config": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^11.13.0",
+    "@types/parse-git-config": "^3.0.0",
     "typescript": "^3.4.1"
   }
 }

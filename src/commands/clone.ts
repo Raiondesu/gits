@@ -1,7 +1,41 @@
+import { existsSync } from 'fs';
+import { spawnSync } from 'child_process';
+
 import chalk from 'chalk';
+import parse = require('parse-git-config');
 
 import { ICommandConfig } from '.';
-import { spawnSync } from 'child_process';
+
+function cloneRepo(repoUrl: string, repoName: string) {
+  spawnSync('git', ['clone', repoUrl, repoName], { stdio: 'inherit' });
+}
+
+function cloneSubmodules(repoName: string, submodules: string[]) {
+  if (submodules.length === 0) {
+    return;
+  }
+
+  const gitmodulesURI = repoName + '/.gitmodules';
+
+  // If no submodules, but passed submodules names as args
+  if (!existsSync(gitmodulesURI) && submodules && submodules.length > 0) {
+    throw new Error(`Repository ${repoName} does not contain any submodules!`);
+  }
+
+  const gitmodules = parse.sync({
+    cwd: process.cwd() + '/' + repoName,
+    path: '.gitmodules'
+  });
+
+  const submodulePaths = submodules.map(submodule => (
+    gitmodules[`submodule "${submodule}"`].path
+  ));
+
+  spawnSync('git', ['submodule', 'update', '--init', '--', ...submodulePaths], {
+    stdio: 'inherit',
+    cwd: process.cwd() + '/' + repoName
+  });
+}
 
 export default {
   syntax: 'clone <repo> [submodules...]',
@@ -9,23 +43,24 @@ export default {
   description: 'Clones [--all] submodules from a repo',
 
   options: [
-    ['--all', 'Clone all submodules']
+    ['--all', 'Clone all submodules'],
+    ['-i, --install', 'Install all dependencies recursively']
   ],
 
-  async action(_repo: string, _submodules: string[]) {
-    let submodules = _submodules.map(s => chalk.blueBright(s));
-    let repo = chalk.yellow(_repo);
+  action(repoUrl: string, submodules: string[]) {
+    let submodulesLog = submodules.map(s => chalk.blueBright(s));
+    let repoLog = chalk.yellow(repoUrl);
 
     let submodulesStr = '';
 
-    if (submodules) {
-      if (submodules.length > 1) {
-        var last = submodules[submodules.length - 1];
-        var others = submodules.slice(0, submodules.length - 1).join(', ');
+    if (submodulesLog) {
+      if (submodulesLog.length > 1) {
+        var last = submodulesLog[submodulesLog.length - 1];
+        var others = submodulesLog.slice(0, submodulesLog.length - 1).join(', ');
 
         submodulesStr += `submodules ${others} and ${last}`;
-      } else if (submodules.length === 1) {
-        submodulesStr += 'submodule ' + String(submodules[0]);
+      } else if (submodulesLog.length === 1) {
+        submodulesStr += 'submodule ' + String(submodulesLog[0]);
       } else {
         submodulesStr = 'shallow';
       }
@@ -37,27 +72,23 @@ export default {
 
     submodulesStr = submodulesStr ? `${submodulesStr}` : '';
 
-    const repoName = (_repo.match(/([a-z0-9-]+)\.git$/) || [])[1];
+    const repoName = (repoUrl.match(/([a-z0-9-]+)\.git$/) || [])[1];
 
     if (!repoName) {
       console.error('Invalid git repo url!');
-      process.exit(1);
+      return process.exit(1);
     }
 
-    console.log(`Cloning ${submodulesStr}\nfrom ${repo}\ninto ${process.cwd().replace(/\\/g, '/')}/${repoName}...`);
+    console.log(`Cloning ${submodulesStr}\nfrom ${repoLog}\ninto ${process.cwd().replace(/\\/g, '/')}/${repoName}...`);
 
-    spawnSync('git', ['clone', _repo, repoName], { stdio: 'inherit' });
+    // Clone main repo
+    cloneRepo(repoUrl, repoName);
 
-    spawnSync('git', ['submodule', 'update', '--init', '--', ..._submodules], {
-      stdio: 'inherit',
-      cwd: process.cwd() + '/' + repoName
-    });
+    // Clone submodules
+    cloneSubmodules(repoName, submodules);
 
-    // const git = simpleGit(process.cwd());
-
-    // git.clone(_repo, './' + repoName)
-      // .then(() => {
-        // git.subModule(['update --init -- ' + _submodules.map(s => './' + s).join(' ')]);
-      // });
+    if (this.install) {
+      submodules
+    }
   }
 } as ICommandConfig;

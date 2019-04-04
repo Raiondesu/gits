@@ -13,7 +13,12 @@ function default_1(program) {
     allCommands.forEach(function (config) {
         var localCommand = program.command(config.syntax);
         if (config.alias) {
-            localCommand.alias(config.alias);
+            if (typeof config.alias === 'string') {
+                localCommand.alias(config.alias);
+            }
+            else if (Array.isArray(config.alias)) {
+                config.alias.forEach(function (alias) { return localCommand.alias(alias); });
+            }
         }
         if (config.description) {
             localCommand.description('|  ' + chalk_1.default.greenBright(config.description));
