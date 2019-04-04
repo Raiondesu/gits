@@ -1,7 +1,7 @@
 import { ICommandConfig } from '.';
 
 export default {
-  syntax: 'install [<names...>]',
+  syntax: 'uninstall [<names...>]',
 
   description: 'Gracefully uninstall unneeded submodules',
 
