@@ -1,0 +1,34 @@
+{
+  "name": "gits",
+  "version": "0.0.0",
+  "description": "A prototype of a cli-tool for efficient submodules management",
+  "main": "index.js",
+  "bin": {
+    "gits": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raiondesu/gits.git"
+  },
+  "keywords": [
+    "git",
+    "submodules",
+    "cli",
+    "package-manager",
+    "project-mananger"
+  ],
+  "author": "Raiondesu <a.raiondesu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Raiondesu/gits/issues"
+  },
+  "homepage": "https://github.com/Raiondesu/gits#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "inquirer": "^6.2.2"
+  }
+}
