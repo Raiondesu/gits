@@ -1,14 +1,14 @@
 import { ICommandConfig } from '.';
 
 export default {
-  syntax: 'install <names...>',
+  syntax: 'install [<names...>]',
 
-  description: '',
+  description: 'Install necessary submodules right where you need them',
 
   alias: ['i', 'add'],
 
   options: [
-    ['-t, --type', 'Define the type of a submodule'],
+    ['-t, --type', 'Define the type for submodules'],
     ['-p, --path', 'Specifiy a custom path for installation']
   ],
 
