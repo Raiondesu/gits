@@ -10,7 +10,7 @@ commands_1.default(program);
 // Initialize metadata
 program.name('gits')
     .usage('<command> [options]')
-    .version(chalk_1.default.greenBright(require('../package.json').version), '-v, --version');
+    .version("gits@" + chalk_1.default.greenBright(require('../package.json').version), '-v, --version');
 // If unknown command - just redirect to git
 program.on('command:*', function () {
     console.error('Invalid command %s.\nForwarding to git...\n', process.argv.slice(2).join(' '));

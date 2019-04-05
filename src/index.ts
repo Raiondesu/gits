@@ -12,7 +12,7 @@ addCommands(program);
 // Initialize metadata
 program.name('gits')
   .usage('<command> [options]')
-  .version(chalk.greenBright(require('../package.json').version), '-v, --version');
+  .version(`gits@${chalk.greenBright(require('../package.json').version)}`, '-v, --version');
 
 // If unknown command - just redirect to git
 program.on('command:*', function () {
