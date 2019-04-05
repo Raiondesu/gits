@@ -10,3 +10,8 @@ compiled
 .awcache
 .rpt2_cache
 docs
+*-debug.log
+*-error.log
+/lib
+/tmp
+yarn.lock

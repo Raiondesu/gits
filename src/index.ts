@@ -1,34 +1,21 @@
-#!/usr/bin/env node
-
-import * as program from 'commander';
 import chalk from 'chalk';
+import { Command, run } from '@oclif/command';
 
-// Add commands to the program
-import addCommands from './commands';
-import { spawn } from 'child_process';
+export = class Gits extends Command {
+  public async run() {
+    // const { args, flags } = this.parse(this.constructor as typeof Gits);
+    this.log('here');
+    this.config.version = chalk.greenBright(this.config.version);
 
-addCommands(program);
+    const minimumArgsLength = 2;
 
-// Initialize metadata
-program.name('gits')
-  .usage('<command> [options]')
-  .version(chalk.greenBright(require('../package.json').version), '-v, --version');
+    // Check the program.args obj
+    const NO_COMMAND_SPECIFIED = process.argv.length <= minimumArgsLength;
 
-// If unknown command - just redirect to git
-program.on('command:*', function () {
-  console.error('Invalid command %s.\nForwarding to git...\n', process.argv.slice(2).join(' '));
-
-  spawn('git', process.argv.slice(2), { stdio: 'inherit', env: { FORCE_COLOR: 'true' } });
-});
-
-// Accept input from user
-program.parse(process.argv);
-
-// Check the program.args obj
-var NO_COMMAND_SPECIFIED = process.argv.length <= 2;
-
-// Handle it however you like
-if (NO_COMMAND_SPECIFIED) {
-  // e.g. display usage
-  program.help();
-}
+    if (NO_COMMAND_SPECIFIED) {
+      this._help();
+    } else {
+      run(process.argv);
+    }
+  }
+};

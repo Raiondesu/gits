@@ -1,11 +1,15 @@
-import { ICommandConfig } from './index';
+import { Command, flags } from '@oclif/command';
 
-export default {
-  syntax: 'push',
+export default class Push extends Command {
+  public static description = 'Pushe commits to submodules and update root';
 
-  description: 'Pushes commits to submodules and updates root',
+  public static flags = {
+    force: flags.boolean({ char: 'f', description: 'Force push' })
+  };
 
-  action() {
-    console.log('Pushing...');
+  public static args = [{ name: 'file' }];
+
+  public async run() {
+    this.log('Not implemented yet...');
   }
-} as ICommandConfig;
+}

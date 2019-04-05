@@ -1,53 +1,79 @@
-import { existsSync } from 'fs';
-import { spawnSync } from 'child_process';
+// import { existsSync } from 'fs';
+// import { spawnSync } from 'child_process';
 
-import chalk from 'chalk';
-import parse = require('parse-git-config');
+// import chalk from 'chalk';
+// import parse = require('parse-git-config');
 
-import { ICommandConfig } from '.';
+import { Command, flags } from '@oclif/command';
 
-function cloneRepo(repoUrl: string, repoName: string) {
-  spawnSync('git', ['clone', repoUrl, repoName], { stdio: 'inherit' });
-}
+// function cloneRepo(repoUrl: string, repoName: string) {
+//   spawnSync('git', ['clone', repoUrl, repoName], { stdio: 'inherit' });
+// }
 
-function cloneSubmodules(repoName: string, submodules: string[]) {
-  if (submodules.length === 0) {
-    return;
-  }
+// function cloneSubmodules(repoName: string, submodules: string[]) {
+//   if (submodules.length === 0) {
+//     return;
+//   }
 
-  const gitmodulesURI = repoName + '/.gitmodules';
+//   const gitmodulesURI = repoName + '/.gitmodules';
 
-  // If no submodules, but passed submodules names as args
-  if (!existsSync(gitmodulesURI) && submodules && submodules.length > 0) {
-    throw new Error(`Repository ${repoName} does not contain any submodules!`);
-  }
+//   // If no submodules, but passed submodules names as args
+//   if (!existsSync(gitmodulesURI) && submodules && submodules.length > 0) {
+//     throw new Error(`Repository ${repoName} does not contain any submodules!`);
+//   }
 
-  const gitmodules = parse.sync({
-    cwd: process.cwd() + '/' + repoName,
-    path: '.gitmodules'
-  });
+//   const gitmodules = parse.sync({
+//     cwd: process.cwd() + '/' + repoName,
+//     path: '.gitmodules'
+//   });
 
-  const submodulePaths = submodules.map(submodule => (
-    gitmodules[`submodule "${submodule}"`].path
-  ));
+//   const submodulePaths = submodules.map(submodule => (
+//     gitmodules[`submodule "${submodule}"`].path
+//   ));
 
-  spawnSync('git', ['submodule', 'update', '--init', '--', ...submodulePaths], {
-    stdio: 'inherit',
-    cwd: process.cwd() + '/' + repoName
-  });
-}
+//   spawnSync('git', ['submodule', 'update', '--init', '--', ...submodulePaths], {
+//     stdio: 'inherit',
+//     cwd: process.cwd() + '/' + repoName
+//   });
+// }
 
-export default {
-  syntax: 'clone <repo> [submodules...]',
+export default class Clone extends Command {
+  public static strict = false;
 
-  description: 'Clones [--all] submodules from a repo',
+  public static usage = 'clone [options] <REPOURL> [-m <submodules>...]';
 
-  options: [
-    ['--all', 'Clone all submodules'],
-    ['-i, --install', 'Install all dependencies recursively']
-  ],
+  public static description = 'Clone [--all] submodules from a repo';
 
-  action(repoUrl: string, submodules: string[]) {
+  public static flags = {
+    all: flags.boolean({
+      description: 'Clone all submodules',
+      required: false,
+    }),
+    install: flags.boolean({
+      char: 'i',
+      description: 'Install all dependencies recursively',
+      required: false,
+    }),
+    modules: flags.string({
+      char: 'm',
+      multiple: true,
+      required: true,
+      description: 'Submodules for installation'
+    })
+  };
+
+  public static args = [
+    {
+      name: 'repoUrl',
+      description: 'Repository URL for cloning',
+    }
+  ];
+
+  public async run() {
+    const { args, flags } = this.parse(Clone);
+
+    console.log(args, flags);
+/*
     let submodulesLog = submodules.map(s => chalk.blueBright(s));
     let repoLog = chalk.yellow(repoUrl);
 
@@ -89,6 +115,6 @@ export default {
 
     if (this.install) {
       submodules
-    }
+    } */
   }
-} as ICommandConfig;
+}

@@ -1,18 +1,38 @@
-import { ICommandConfig } from '.';
+import { Command, flags } from '@oclif/command';
 
-export default {
-  syntax: 'uninstall [<names...>]',
+export default class Uninstall extends Command {
+  public static strict = false;
 
-  description: 'Gracefully uninstall unneeded submodules',
+  public static usage = 'unnstall [<modules...>] [--type=module|asset] [--path ./to/my/modules]';
 
-  alias: ['un', 'remove'],
+  public static description = 'Gracefully uninstall unneeded modules in one line!';
 
-  options: [
-    ['-t, --type', 'Define the type of submodules'],
-    ['-p, --path', 'Specifiy a custom path for submodules']
-  ],
+  public static flags = {
+    type: flags.string({
+      char: 't',
+      description: 'Define the type of submodules',
+      default: 'module',
+      required: false,
+    }),
+    path: flags.string({
+      char: 'p',
+      description: 'Specifiy a custom path for submodules',
+      default: 'src/modules',
+      required: false,
+    }),
+  };
 
-  action() {
-    console.log('Not yet implemented.');
+  public static aliases = ['un', 'remove'];
+
+  public static args = [
+    {
+      name: 'modules',
+      description: 'Submodules for removal',
+      multiple: true,
+    }
+  ];
+
+  public async run() {
+    this.log('Not implemented yet...');
   }
-} as ICommandConfig;
+}
