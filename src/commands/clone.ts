@@ -1,41 +1,11 @@
-// import { existsSync } from 'fs';
-// import { spawnSync } from 'child_process';
+import { existsSync } from 'fs';
+import { spawnSync } from 'child_process';
 
-// import chalk from 'chalk';
-// import parse = require('parse-git-config');
+import chalk from 'chalk';
+import parse = require('parse-git-config');
 
 import { Command, flags } from '@oclif/command';
-
-// function cloneRepo(repoUrl: string, repoName: string) {
-//   spawnSync('git', ['clone', repoUrl, repoName], { stdio: 'inherit' });
-// }
-
-// function cloneSubmodules(repoName: string, submodules: string[]) {
-//   if (submodules.length === 0) {
-//     return;
-//   }
-
-//   const gitmodulesURI = repoName + '/.gitmodules';
-
-//   // If no submodules, but passed submodules names as args
-//   if (!existsSync(gitmodulesURI) && submodules && submodules.length > 0) {
-//     throw new Error(`Repository ${repoName} does not contain any submodules!`);
-//   }
-
-//   const gitmodules = parse.sync({
-//     cwd: process.cwd() + '/' + repoName,
-//     path: '.gitmodules'
-//   });
-
-//   const submodulePaths = submodules.map(submodule => (
-//     gitmodules[`submodule "${submodule}"`].path
-//   ));
-
-//   spawnSync('git', ['submodule', 'update', '--init', '--', ...submodulePaths], {
-//     stdio: 'inherit',
-//     cwd: process.cwd() + '/' + repoName
-//   });
-// }
+import { IArg } from '@oclif/parser/lib/args';
 
 export default class Clone extends Command {
   public static strict = false;
@@ -45,8 +15,9 @@ export default class Clone extends Command {
   public static description = 'Clone [--all] submodules from a repo';
 
   public static flags = {
-    all: flags.boolean({
-      description: 'Clone all submodules',
+    shallow: flags.boolean({
+      char: 's',
+      description: 'Shallow clone (equvalent to standart git clone)',
       required: false,
     }),
     install: flags.boolean({
@@ -57,24 +28,26 @@ export default class Clone extends Command {
     modules: flags.string({
       char: 'm',
       multiple: true,
-      required: true,
-      description: 'Submodules for installation'
+      hidden: true,
+      description: 'Submodules for installation',
     })
   };
 
-  public static args = [
+  public static args: IArg<string>[] = [
     {
       name: 'repoUrl',
       description: 'Repository URL for cloning',
+      required: true
     }
   ];
 
   public async run() {
     const { args, flags } = this.parse(Clone);
 
-    console.log(args, flags);
-/*
-    let submodulesLog = submodules.map(s => chalk.blueBright(s));
+    const { repoUrl } = args;
+    const { modules: submodules, /* install, */ shallow } = flags;
+
+    let submodulesLog = (submodules || []).map(s => chalk.blueBright(s));
     let repoLog = chalk.yellow(repoUrl);
 
     let submodulesStr = '';
@@ -90,9 +63,7 @@ export default class Clone extends Command {
       } else {
         submodulesStr = 'shallow';
       }
-    }
-
-    if (this.opts().all) {
+    } else if (!shallow) {
       submodulesStr = chalk.blueBright('all submodules');
     }
 
@@ -101,20 +72,60 @@ export default class Clone extends Command {
     const repoName = (repoUrl.match(/([a-z0-9-]+)\.git$/) || [])[1];
 
     if (!repoName) {
-      console.error('Invalid git repo url!');
-      return process.exit(1);
+      this.error('Invalid git repo url!', { exit: 1 });
     }
 
-    console.log(`Cloning ${submodulesStr}\nfrom ${repoLog}\ninto ${process.cwd().replace(/\\/g, '/')}/${repoName}...`);
+    console.log(
+      `Cloning ${
+        submodulesStr
+      }\nfrom ${
+        repoLog
+      }\ninto ${
+        process.cwd().replace(/\\/g, '/')
+      }/${repoName}...\n`
+    );
 
     // Clone main repo
-    cloneRepo(repoUrl, repoName);
+    this.cloneRepo(repoUrl, repoName);
 
     // Clone submodules
-    cloneSubmodules(repoName, submodules);
+    this.cloneSubmodules(repoName, submodules);
+    /*
+
 
     if (this.install) {
       submodules
     } */
+  }
+
+  public cloneRepo(repoUrl: string, repoName: string) {
+    spawnSync('git', ['clone', repoUrl, repoName], { stdio: 'inherit' });
+  }
+
+  public cloneSubmodules(repoName: string, submodules: string[]) {
+    if (submodules.length === 0) {
+      return;
+    }
+
+    const gitmodulesURI = repoName + '/.gitmodules';
+
+    // If no submodules, but passed submodules names as args
+    if (!existsSync(gitmodulesURI) && submodules && submodules.length > 0) {
+      throw new Error(`Repository ${repoName} does not contain any submodules!`);
+    }
+
+    const gitmodules = parse.sync({
+      cwd: process.cwd() + '/' + repoName,
+      path: '.gitmodules'
+    });
+
+    const submodulePaths = submodules.map(submodule => (
+      gitmodules[`submodule "${submodule}"`].path
+    ));
+
+    spawnSync('git', ['submodule', 'update', '--init', '--', ...submodulePaths], {
+      stdio: 'inherit',
+      cwd: process.cwd() + '/' + repoName
+    });
   }
 }

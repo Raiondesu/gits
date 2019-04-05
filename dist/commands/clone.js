@@ -2,7 +2,7 @@
 // import { existsSync } from 'fs';
 // import { spawnSync } from 'child_process';
 Object.defineProperty(exports, "__esModule", { value: true });
-// import chalk from 'chalk';
+const chalk_1 = require("chalk");
 // import parse = require('parse-git-config');
 const command_1 = require("@oclif/command");
 // function cloneRepo(repoUrl: string, repoName: string) {
@@ -32,58 +32,54 @@ const command_1 = require("@oclif/command");
 class Clone extends command_1.Command {
     async run() {
         const { args, flags } = this.parse(Clone);
+        const { repoUrl } = args;
+        const { modules: submodules, /* install, */ shallow } = flags;
         console.log(args, flags);
-        /*
-            let submodulesLog = submodules.map(s => chalk.blueBright(s));
-            let repoLog = chalk.yellow(repoUrl);
-        
-            let submodulesStr = '';
-        
-            if (submodulesLog) {
-              if (submodulesLog.length > 1) {
+        let submodulesLog = submodules.map(s => chalk_1.default.blueBright(s));
+        let repoLog = chalk_1.default.yellow(repoUrl);
+        let submodulesStr = '';
+        if (submodulesLog) {
+            if (submodulesLog.length > 1) {
                 var last = submodulesLog[submodulesLog.length - 1];
                 var others = submodulesLog.slice(0, submodulesLog.length - 1).join(', ');
-        
                 submodulesStr += `submodules ${others} and ${last}`;
-              } else if (submodulesLog.length === 1) {
+            }
+            else if (submodulesLog.length === 1) {
                 submodulesStr += 'submodule ' + String(submodulesLog[0]);
-              } else {
+            }
+            else {
                 submodulesStr = 'shallow';
-              }
             }
-        
-            if (this.opts().all) {
-              submodulesStr = chalk.blueBright('all submodules');
-            }
-        
-            submodulesStr = submodulesStr ? `${submodulesStr}` : '';
-        
-            const repoName = (repoUrl.match(/([a-z0-9-]+)\.git$/) || [])[1];
-        
-            if (!repoName) {
-              console.error('Invalid git repo url!');
-              return process.exit(1);
-            }
-        
-            console.log(`Cloning ${submodulesStr}\nfrom ${repoLog}\ninto ${process.cwd().replace(/\\/g, '/')}/${repoName}...`);
-        
-            // Clone main repo
-            cloneRepo(repoUrl, repoName);
-        
-            // Clone submodules
-            cloneSubmodules(repoName, submodules);
-        
-            if (this.install) {
-              submodules
-            } */
+        }
+        if (!shallow) {
+            submodulesStr = chalk_1.default.blueBright('all submodules');
+        }
+        submodulesStr = submodulesStr ? `${submodulesStr}` : '';
+        const repoName = (repoUrl.match(/([a-z0-9-]+)\.git$/) || [])[1];
+        if (!repoName) {
+            this.error('Invalid git repo url!', { exit: 1 });
+        }
+        console.log(`Cloning ${submodulesStr}\nfrom ${repoLog}\ninto ${process.cwd().replace(/\\/g, '/')}/${repoName}...`);
+        /*
+    
+        // Clone main repo
+        cloneRepo(repoUrl, repoName);
+    
+        // Clone submodules
+        cloneSubmodules(repoName, submodules);
+    
+        if (this.install) {
+          submodules
+        } */
     }
 }
 Clone.strict = false;
 Clone.usage = 'clone [options] <REPOURL> [-m <submodules>...]';
 Clone.description = 'Clone [--all] submodules from a repo';
 Clone.flags = {
-    all: command_1.flags.boolean({
-        description: 'Clone all submodules',
+    shallow: command_1.flags.boolean({
+        char: 's',
+        description: 'Shallow clone (equvalent to standart git clone)',
         required: false,
     }),
     install: command_1.flags.boolean({
@@ -94,8 +90,8 @@ Clone.flags = {
     modules: command_1.flags.string({
         char: 'm',
         multiple: true,
-        required: true,
-        description: 'Submodules for installation'
+        hidden: true,
+        description: 'Submodules for installation',
     })
 };
 Clone.args = [

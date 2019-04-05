@@ -210,8 +210,8 @@
         "signature": "d8f47ec777264d84a3d58cc812169467e796f3f460123b8cb7fe329b315e5891"
       },
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/clone.ts": {
-        "version": "4f9deb98f329608f1fac55037ce0f4b4f41ba9e5273bf4817a08659dcd3881bc",
-        "signature": "eca9e647ec320a97d2cf6b21989857ebf59d5bb0315d05a0d20db4f146ceba6f"
+        "version": "97d92516682161d1aa7cf7c661418daeb0371d4e834d7f60a8e24553d9c97565",
+        "signature": "75e18f9f43c239f77901c661728beddbfc6211433d8dd3ca3c9ce26622bff595"
       },
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/install.ts": {
         "version": "cafe04755d3ec434ea0efef7d961f569dafb7e5ddd8c415887f816d48bb12b88",
@@ -762,6 +762,7 @@
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/clone.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/chalk/types/index.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"

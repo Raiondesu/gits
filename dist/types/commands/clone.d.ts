@@ -4,7 +4,7 @@ export default class Clone extends Command {
     static usage: string;
     static description: string;
     static flags: {
-        all: import("@oclif/parser/lib/flags").IBooleanFlag<boolean>;
+        shallow: import("@oclif/parser/lib/flags").IBooleanFlag<boolean>;
         install: import("@oclif/parser/lib/flags").IBooleanFlag<boolean>;
         modules: flags.IOptionFlag<string[]>;
     };
