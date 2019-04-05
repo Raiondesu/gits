@@ -5,7 +5,7 @@ export default {
 
   description: 'Gracefully uninstall unneeded submodules',
 
-  alias: ['un', 'remove'],
+  alias: 'un',
 
   options: [
     ['-t, --type', 'Define the type of submodules'],

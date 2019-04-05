@@ -14,7 +14,7 @@ export interface ICommandConfig {
   description?: string;
 
   options?: [string, string][];
-  alias?: string | string[];
+  alias?: string;
 
   action(this: typeof import('commander'), ...args: any[]): void;
 }
@@ -24,11 +24,7 @@ export default function (program: typeof import('commander')) {
     const localCommand = program.command(config.syntax);
 
     if (config.alias) {
-      if (typeof config.alias === 'string') {
-        localCommand.alias(config.alias);
-      } else if (Array.isArray(config.alias)) {
-        config.alias.forEach(alias => localCommand.alias(alias));
-      }
+      localCommand.alias(config.alias);
     }
 
     if (config.description) {
@@ -36,9 +32,11 @@ export default function (program: typeof import('commander')) {
     }
 
     if (config.options) {
-      config.options.forEach(option => (
-        localCommand.option.apply(localCommand, option)
-      ));
+      config.options.forEach(option => {
+        option[1] = chalk.cyanBright(option[1]);
+
+        localCommand.option.apply(localCommand, option);
+      });
     }
 
     localCommand.action(config.action);

@@ -9,7 +9,7 @@ function cloneRepo(repoUrl, repoName) {
 }
 function cloneSubmodules(repoName, submodules) {
     if (submodules.length === 0) {
-        return;
+        return [];
     }
     var gitmodulesURI = repoName + '/.gitmodules';
     // If no submodules, but passed submodules names as args
@@ -20,18 +20,20 @@ function cloneSubmodules(repoName, submodules) {
         cwd: process.cwd() + '/' + repoName,
         path: '.gitmodules'
     });
-    var submodulePaths = submodules.map(function (submodule) { return (gitmodules["submodule \"" + submodule + "\""].path); });
+    var validSubmodules = submodules.filter(function (s) { return !!gitmodules["submodule \"" + s + "\""]; });
+    var submodulePaths = validSubmodules.map(function (submodule) { return (gitmodules["submodule \"" + submodule + "\""].path); });
     child_process_1.spawnSync('git', ['submodule', 'update', '--init', '--'].concat(submodulePaths), {
         stdio: 'inherit',
         cwd: process.cwd() + '/' + repoName
     });
+    return validSubmodules;
 }
 exports.default = {
     syntax: 'clone <repo> [submodules...]',
-    description: 'Clones [--all] submodules from a repo',
+    description: 'Clone submodules from a repo',
     options: [
-        ['--all', 'Clone all submodules'],
-        ['-i, --install', 'Install all dependencies recursively']
+        ['--shalow', 'Do not clone submodules (identical to a simple git clone)'],
+        ['-i, --install', 'Install all dependencies recursively (identical to git clone --recursive)']
     ],
     action: function (repoUrl, submodules) {
         var submodulesLog = submodules.map(function (s) { return chalk_1.default.blueBright(s); });
@@ -50,7 +52,7 @@ exports.default = {
                 submodulesStr = 'shallow';
             }
         }
-        if (this.opts().all) {
+        if (this.shallow) {
             submodulesStr = chalk_1.default.blueBright('all submodules');
         }
         submodulesStr = submodulesStr ? "" + submodulesStr : '';
@@ -59,13 +61,18 @@ exports.default = {
             console.error('Invalid git repo url!');
             return process.exit(1);
         }
-        console.log("Cloning " + submodulesStr + "\nfrom " + repoLog + "\ninto " + process.cwd().replace(/\\/g, '/') + "/" + repoName + "...");
+        this.log("\nCloning " + submodulesStr + "\n\tfrom " + repoLog + "\n\tinto " + process.cwd().replace(/\\/g, '/') + "/" + repoName + "...\n");
         // Clone main repo
         cloneRepo(repoUrl, repoName);
         // Clone submodules
-        cloneSubmodules(repoName, submodules);
+        var validSubmodules = cloneSubmodules(repoName, submodules);
         if (this.install) {
-            submodules;
+            validSubmodules.forEach(function (name) {
+                child_process_1.spawnSync('gits', ['install'], {
+                    stdio: 'inherit',
+                    cwd: process.cwd() + '/' + repoName + '/' + name
+                });
+            });
         }
     }
 };

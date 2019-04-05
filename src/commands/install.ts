@@ -5,7 +5,7 @@ export default {
 
   description: 'Install necessary submodules right where you need them',
 
-  alias: ['i', 'add'],
+  alias: 'i',
 
   options: [
     ['-t, --type', 'Define the type for submodules'],

@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = {
     syntax: 'uninstall [<names...>]',
     description: 'Gracefully uninstall unneeded submodules',
-    alias: ['un', 'remove'],
+    alias: 'un',
     options: [
         ['-t, --type', 'Define the type of submodules'],
         ['-p, --path', 'Specifiy a custom path for submodules']

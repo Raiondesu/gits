@@ -12,7 +12,7 @@ function cloneRepo(repoUrl: string, repoName: string) {
 
 function cloneSubmodules(repoName: string, submodules: string[]) {
   if (submodules.length === 0) {
-    return;
+    return [];
   }
 
   const gitmodulesURI = repoName + '/.gitmodules';
@@ -27,7 +27,10 @@ function cloneSubmodules(repoName: string, submodules: string[]) {
     path: '.gitmodules'
   });
 
-  const submodulePaths = submodules.map(submodule => (
+
+  const validSubmodules = submodules.filter(s => !!gitmodules[`submodule "${s}"`]);
+
+  const submodulePaths = validSubmodules.map(submodule => (
     gitmodules[`submodule "${submodule}"`].path
   ));
 
@@ -35,16 +38,18 @@ function cloneSubmodules(repoName: string, submodules: string[]) {
     stdio: 'inherit',
     cwd: process.cwd() + '/' + repoName
   });
+
+  return validSubmodules;
 }
 
 export default {
   syntax: 'clone <repo> [submodules...]',
 
-  description: 'Clones [--all] submodules from a repo',
+  description: 'Clone submodules from a repo',
 
   options: [
-    ['--all', 'Clone all submodules'],
-    ['-i, --install', 'Install all dependencies recursively']
+    ['--shalow', 'Do not clone submodules (identical to a simple git clone)'],
+    ['-i, --install', 'Install all dependencies recursively (identical to git clone --recursive)']
   ],
 
   action(repoUrl: string, submodules: string[]) {
@@ -66,7 +71,7 @@ export default {
       }
     }
 
-    if (this.opts().all) {
+    if (this.shallow) {
       submodulesStr = chalk.blueBright('all submodules');
     }
 
@@ -79,16 +84,29 @@ export default {
       return process.exit(1);
     }
 
-    console.log(`Cloning ${submodulesStr}\nfrom ${repoLog}\ninto ${process.cwd().replace(/\\/g, '/')}/${repoName}...`);
+    this.log(
+      `\nCloning ${
+        submodulesStr
+      }\n\tfrom ${
+        repoLog
+      }\n\tinto ${
+        process.cwd().replace(/\\/g, '/')
+      }/${repoName}...\n`
+    );
 
     // Clone main repo
     cloneRepo(repoUrl, repoName);
 
     // Clone submodules
-    cloneSubmodules(repoName, submodules);
+    const validSubmodules = cloneSubmodules(repoName, submodules);
 
     if (this.install) {
-      submodules
+      validSubmodules.forEach(name => {
+        spawnSync('gits', ['install'], {
+          stdio: 'inherit',
+          cwd: process.cwd() + '/' + repoName + '/' + name
+        });
+      });
     }
   }
 } as ICommandConfig;

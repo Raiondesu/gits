@@ -13,18 +13,16 @@ function default_1(program) {
     allCommands.forEach(function (config) {
         var localCommand = program.command(config.syntax);
         if (config.alias) {
-            if (typeof config.alias === 'string') {
-                localCommand.alias(config.alias);
-            }
-            else if (Array.isArray(config.alias)) {
-                config.alias.forEach(function (alias) { return localCommand.alias(alias); });
-            }
+            localCommand.alias(config.alias);
         }
         if (config.description) {
             localCommand.description('|  ' + chalk_1.default.greenBright(config.description));
         }
         if (config.options) {
-            config.options.forEach(function (option) { return (localCommand.option.apply(localCommand, option)); });
+            config.options.forEach(function (option) {
+                option[1] = chalk_1.default.cyanBright(option[1]);
+                localCommand.option.apply(localCommand, option);
+            });
         }
         localCommand.action(config.action);
     });
