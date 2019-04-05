@@ -16,7 +16,6 @@
     "no-eval": true,
     // "no-implicit-dependencies": true,
     "no-invalid-template-strings": true,
-    "no-magic-numbers": true,
     "no-parameter-reassignment": true, // See https://eslint.org/docs/rules/no-param-reassign
     "no-redundant-jsdoc": true,
     "no-return-await": true,

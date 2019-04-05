@@ -125,13 +125,101 @@
         "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
         "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
       },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/args.d.ts": {
+        "version": "b8fac2a2a066d140f34e5e0c698440f1f8c8a94eea2c95d156ce821ed53336e2",
+        "signature": "b8fac2a2a066d140f34e5e0c698440f1f8c8a94eea2c95d156ce821ed53336e2"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/alphabet.d.ts": {
+        "version": "2f79c688ac24759632fe8dda94c822d169cbe2a11f37fe6de1588d653af051ca",
+        "signature": "2f79c688ac24759632fe8dda94c822d169cbe2a11f37fe6de1588d653af051ca"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts": {
+        "version": "6759bd60667a692ca4036415ce891308eae0038c3ec26410e26f59bccf38f0ca",
+        "signature": "6759bd60667a692ca4036415ce891308eae0038c3ec26410e26f59bccf38f0ca"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/metadata.d.ts": {
+        "version": "ebdcf50c5fdb4f68caf05066fb3bd839436a3c39c3154d65dd81a8855382b5e5",
+        "signature": "ebdcf50c5fdb4f68caf05066fb3bd839436a3c39c3154d65dd81a8855382b5e5"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/parse.d.ts": {
+        "version": "ee66d834ddc05efda67651fd52023eef1c8b471e20ec2baee05043f1f62ef635",
+        "signature": "ee66d834ddc05efda67651fd52023eef1c8b471e20ec2baee05043f1f62ef635"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/help.d.ts": {
+        "version": "34e73f0523e9afb52074fcec0844a6334d48bdb2977f944b3e6648da99755bba",
+        "signature": "34e73f0523e9afb52074fcec0844a6334d48bdb2977f944b3e6648da99755bba"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/index.d.ts": {
+        "version": "710da65a65a2662a3d39d3d5e978a1ba9a07b5f95e77e49070addfb61998c18f",
+        "signature": "710da65a65a2662a3d39d3d5e978a1ba9a07b5f95e77e49070addfb61998c18f"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/command.d.ts": {
+        "version": "bf67e5f33b4258a5ac05488de04a86871df56175cfa36b0c66587284969a9749",
+        "signature": "bf67e5f33b4258a5ac05488de04a86871df56175cfa36b0c66587284969a9749"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/hooks.d.ts": {
+        "version": "b05352898b844a87fd8ef31b0420dfa584b2c058e39677bd51e0d942af1afe60",
+        "signature": "b05352898b844a87fd8ef31b0420dfa584b2c058e39677bd51e0d942af1afe60"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/pjson.d.ts": {
+        "version": "1e1fa6121eed38a97f548077cd06a16afba9a62e9cc7945d69c0c867449abdbd",
+        "signature": "1e1fa6121eed38a97f548077cd06a16afba9a62e9cc7945d69c0c867449abdbd"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/manifest.d.ts": {
+        "version": "4108bca6ec2cc28598948e80fca629bb096ca3371091ee3bbca6f87c8a8ff3e1",
+        "signature": "4108bca6ec2cc28598948e80fca629bb096ca3371091ee3bbca6f87c8a8ff3e1"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/topic.d.ts": {
+        "version": "bd80422c68e0575fee07883efc93fdbf32da39f76ab8479d56eba05e7fac8363",
+        "signature": "bd80422c68e0575fee07883efc93fdbf32da39f76ab8479d56eba05e7fac8363"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/plugin.d.ts": {
+        "version": "a32bf18b0d7717fbd6217fe18835f32924cd58ac978bdcb88f3fb9577ff6bb05",
+        "signature": "a32bf18b0d7717fbd6217fe18835f32924cd58ac978bdcb88f3fb9577ff6bb05"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/config.d.ts": {
+        "version": "6a30fa9391f874f455bdf5e6216b3fe46112f6cb7063af7c675e5def6c11909d",
+        "signature": "6a30fa9391f874f455bdf5e6216b3fe46112f6cb7063af7c675e5def6c11909d"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts": {
+        "version": "03d343b7b13b8809088b45ab0f6f442adc2b49e2a77ab375d205d018f0d56785",
+        "signature": "03d343b7b13b8809088b45ab0f6f442adc2b49e2a77ab375d205d018f0d56785"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/lib/flags.d.ts": {
+        "version": "3ead60efd712f69992d4af142d49642272b4a3123dd4a2cfebb225739b35a6f9",
+        "signature": "3ead60efd712f69992d4af142d49642272b4a3123dd4a2cfebb225739b35a6f9"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/lib/command.d.ts": {
+        "version": "11015d15cfc3e324e5b3821e2667015934faeef990b19b9b4d7ad463e1ebb39e",
+        "signature": "11015d15cfc3e324e5b3821e2667015934faeef990b19b9b4d7ad463e1ebb39e"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/lib/main.d.ts": {
+        "version": "67bf4c351d34be7aac6ecdbdd6dd424ef67181fa7c5f21c6304797301c750767",
+        "signature": "67bf4c351d34be7aac6ecdbdd6dd424ef67181fa7c5f21c6304797301c750767"
+      },
+      "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts": {
+        "version": "9cce0b73239658d3cdb8f0970e4572cc4da6a881b9d10c9aaaf309f35d9e8709",
+        "signature": "9cce0b73239658d3cdb8f0970e4572cc4da6a881b9d10c9aaaf309f35d9e8709"
+      },
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/chalk/types/index.d.ts": {
         "version": "091f417275a51ab3c47b949723e9e8a193012157ecc64a96e2d7b1505e82f395",
         "signature": "091f417275a51ab3c47b949723e9e8a193012157ecc64a96e2d7b1505e82f395"
       },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts": {
-        "version": "b8fac2a2a066d140f34e5e0c698440f1f8c8a94eea2c95d156ce821ed53336e2",
-        "signature": "b8fac2a2a066d140f34e5e0c698440f1f8c8a94eea2c95d156ce821ed53336e2"
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/color/lib/index.d.ts": {
+        "version": "72534c1bcb964f9d5c76c908b47fbc4671769a324b0e4293b517d8ef3aac10ec",
+        "signature": "72534c1bcb964f9d5c76c908b47fbc4671769a324b0e4293b517d8ef3aac10ec"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/colorize.ts": {
+        "version": "c6f99a6b24b2881b416cf68432e28cf630b34b6b58317fe1796a6c45297a8f26",
+        "signature": "43b3559ae2d79c3add62ba084c68918254905f557aa698d34fb1228025670516"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/index.ts": {
+        "version": "04b2123e996b5c865eec449a1c670c10cee24d12b9f1a97979c0dbbceecc3384",
+        "signature": "e5b102095ea92ddecdf8e9a7c589c856b5d449ff0b9232ec8b4020e43fc984f6"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/parse-git-config/index.d.ts": {
+        "version": "6f8031ab8b8b33bb97a1147560867c7d814bacc7889a8da12f1b93172ceaf3d9",
+        "signature": "6f8031ab8b8b33bb97a1147560867c7d814bacc7889a8da12f1b93172ceaf3d9"
       },
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/alphabet.d.ts": {
         "version": "2f79c688ac24759632fe8dda94c822d169cbe2a11f37fe6de1588d653af051ca",
@@ -141,97 +229,97 @@
         "version": "6759bd60667a692ca4036415ce891308eae0038c3ec26410e26f59bccf38f0ca",
         "signature": "6759bd60667a692ca4036415ce891308eae0038c3ec26410e26f59bccf38f0ca"
       },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/metadata.d.ts": {
-        "version": "ebdcf50c5fdb4f68caf05066fb3bd839436a3c39c3154d65dd81a8855382b5e5",
-        "signature": "ebdcf50c5fdb4f68caf05066fb3bd839436a3c39c3154d65dd81a8855382b5e5"
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts": {
+        "version": "b8fac2a2a066d140f34e5e0c698440f1f8c8a94eea2c95d156ce821ed53336e2",
+        "signature": "b8fac2a2a066d140f34e5e0c698440f1f8c8a94eea2c95d156ce821ed53336e2"
       },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/parse.d.ts": {
-        "version": "ee66d834ddc05efda67651fd52023eef1c8b471e20ec2baee05043f1f62ef635",
-        "signature": "ee66d834ddc05efda67651fd52023eef1c8b471e20ec2baee05043f1f62ef635"
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/minimist/index.d.ts": {
+        "version": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
+        "signature": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e"
       },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/help.d.ts": {
-        "version": "34e73f0523e9afb52074fcec0844a6334d48bdb2977f944b3e6648da99755bba",
-        "signature": "34e73f0523e9afb52074fcec0844a6334d48bdb2977f944b3e6648da99755bba"
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/clone.ts": {
+        "version": "c80ce7e56828dbad51f0c63e02e8a7832a9cfbd42741c4ed12d6085bb7bfee8f",
+        "signature": "4ac8e77260d952520d63f85844b36bb1052dab0ec0df8009a335057bcb67ac5a"
       },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/index.d.ts": {
-        "version": "710da65a65a2662a3d39d3d5e978a1ba9a07b5f95e77e49070addfb61998c18f",
-        "signature": "710da65a65a2662a3d39d3d5e978a1ba9a07b5f95e77e49070addfb61998c18f"
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/install.ts": {
+        "version": "70a4a784ee612b1ade9b0cdd343a08f9e9a5e5ef4ac1f077c2d9abf7b28ca13a",
+        "signature": "2050973db2f7e1fd80142c837dabc218250386c5fc72ac0a2adafab903058c34"
       },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/command.d.ts": {
-        "version": "bf67e5f33b4258a5ac05488de04a86871df56175cfa36b0c66587284969a9749",
-        "signature": "bf67e5f33b4258a5ac05488de04a86871df56175cfa36b0c66587284969a9749"
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/push.ts": {
+        "version": "bbe2deaa7c000234d67c89ada2f10d6cd589e601dc12f127d61d5a3e390ee361",
+        "signature": "e410375e78553cca33e4ee8e7a3af2d16ff9ee5203daefa0436527183e489638"
       },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/hooks.d.ts": {
-        "version": "b05352898b844a87fd8ef31b0420dfa584b2c058e39677bd51e0d942af1afe60",
-        "signature": "b05352898b844a87fd8ef31b0420dfa584b2c058e39677bd51e0d942af1afe60"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/pjson.d.ts": {
-        "version": "1e1fa6121eed38a97f548077cd06a16afba9a62e9cc7945d69c0c867449abdbd",
-        "signature": "1e1fa6121eed38a97f548077cd06a16afba9a62e9cc7945d69c0c867449abdbd"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/manifest.d.ts": {
-        "version": "4108bca6ec2cc28598948e80fca629bb096ca3371091ee3bbca6f87c8a8ff3e1",
-        "signature": "4108bca6ec2cc28598948e80fca629bb096ca3371091ee3bbca6f87c8a8ff3e1"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/topic.d.ts": {
-        "version": "bd80422c68e0575fee07883efc93fdbf32da39f76ab8479d56eba05e7fac8363",
-        "signature": "bd80422c68e0575fee07883efc93fdbf32da39f76ab8479d56eba05e7fac8363"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/plugin.d.ts": {
-        "version": "a32bf18b0d7717fbd6217fe18835f32924cd58ac978bdcb88f3fb9577ff6bb05",
-        "signature": "a32bf18b0d7717fbd6217fe18835f32924cd58ac978bdcb88f3fb9577ff6bb05"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/config.d.ts": {
-        "version": "6a30fa9391f874f455bdf5e6216b3fe46112f6cb7063af7c675e5def6c11909d",
-        "signature": "6a30fa9391f874f455bdf5e6216b3fe46112f6cb7063af7c675e5def6c11909d"
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/uninstall.ts": {
+        "version": "b599e9f21242411f8d1592ca15b234dfe03cc281a4bc30ebba468f4ae41132e2",
+        "signature": "9351a6b7f6150ff4758947f0df29b53d53fe8d1d1d2bfb108c7bbb1417c463f0"
       },
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts": {
         "version": "03d343b7b13b8809088b45ab0f6f442adc2b49e2a77ab375d205d018f0d56785",
         "signature": "03d343b7b13b8809088b45ab0f6f442adc2b49e2a77ab375d205d018f0d56785"
       },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/flags.d.ts": {
-        "version": "013c7f4547d58905da988f8920ab744c454b12c5a1e1fa9108f4d7d67de92998",
-        "signature": "013c7f4547d58905da988f8920ab744c454b12c5a1e1fa9108f4d7d67de92998"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/command.d.ts": {
-        "version": "c19143f1dc63c07fb2dcd98e96b2e2e706fcf85bec8dd27effdf740e86ee3a25",
-        "signature": "c19143f1dc63c07fb2dcd98e96b2e2e706fcf85bec8dd27effdf740e86ee3a25"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/main.d.ts": {
-        "version": "fc1f16ae8cc4ba5bd55869f317a0c2ec0775f47b61b7d61c691bd9b5fc602208",
-        "signature": "fc1f16ae8cc4ba5bd55869f317a0c2ec0775f47b61b7d61c691bd9b5fc602208"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts": {
-        "version": "778d7164f3612aad776e12987f46889f3fe3541e5d9aed5f673daed728b643d5",
-        "signature": "778d7164f3612aad776e12987f46889f3fe3541e5d9aed5f673daed728b643d5"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/index.ts": {
-        "version": "19405f0dfebf803346689faba3f7625d0796142acaa9c642befc010cf3705e60",
-        "signature": "d8f47ec777264d84a3d58cc812169467e796f3f460123b8cb7fe329b315e5891"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/parse-git-config/index.d.ts": {
-        "version": "6f8031ab8b8b33bb97a1147560867c7d814bacc7889a8da12f1b93172ceaf3d9",
-        "signature": "6f8031ab8b8b33bb97a1147560867c7d814bacc7889a8da12f1b93172ceaf3d9"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/clone.ts": {
-        "version": "d0a4dd69bb7b07d7dd67e2ce6050346976a291e455c5f2c97d57d181a6262fa6",
-        "signature": "5017d61a4d0a87aacaf6517fd94c57cd0b8905dee289a37d4e47cd6f3f71a423"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/install.ts": {
-        "version": "cafe04755d3ec434ea0efef7d961f569dafb7e5ddd8c415887f816d48bb12b88",
-        "signature": "2050973db2f7e1fd80142c837dabc218250386c5fc72ac0a2adafab903058c34"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/push.ts": {
-        "version": "041a34c16138076b5911775152114be38d505737dca0189390ff058aa6ea986c",
-        "signature": "9b2d1fc38b29b1ec13b75319f97936261ea12caf9642cb785b2d0816347d0f34"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/uninstall.ts": {
-        "version": "6a40613cc607756aeaba06c52dae2d2893cfaf1512d9fd03eef108e0404848c9",
-        "signature": "9351a6b7f6150ff4758947f0df29b53d53fe8d1d1d2bfb108c7bbb1417c463f0"
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/hooks/not-found.ts": {
+        "version": "cfa023cfe00badefe03c594e0ddc93e1e804eb527e4ee77785c7eebb4212e04c",
+        "signature": "0b36818176303ead993d8563917006585c55df1b83a5e013da65cfd4493e8c3e"
       },
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/chai/index.d.ts": {
         "version": "c465afa89ac28f74167a2ee7c3c6eb8dd1245c2b3bdaa4704d58d35b932de4b7",
         "signature": "c465afa89ac28f74167a2ee7c3c6eb8dd1245c2b3bdaa4704d58d35b932de4b7"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts": {
+        "version": "826e226ef4293d2e692c796d7cc81c94f353c57fd6016685b79d68134e5df047",
+        "signature": "826e226ef4293d2e692c796d7cc81c94f353c57fd6016685b79d68134e5df047"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts": {
+        "version": "24f73778cc712f3d2ff4b69227957577487118bd41652b63c5f913ba12f7631a",
+        "signature": "24f73778cc712f3d2ff4b69227957577487118bd41652b63c5f913ba12f7631a"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts": {
+        "version": "b645de8e8084e4cb7fb9ba2d8e3fd893dc3b5a6568fb7a5027aec4f779ef814d",
+        "signature": "b645de8e8084e4cb7fb9ba2d8e3fd893dc3b5a6568fb7a5027aec4f779ef814d"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts": {
+        "version": "6e88e36ca6d6953fde31898701899e61239b22f09906d5970caac88107a4b01a",
+        "signature": "6e88e36ca6d6953fde31898701899e61239b22f09906d5970caac88107a4b01a"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts": {
+        "version": "8d0b0656ffc2f973bdea853fc00a3f99122db54fd7a0e13bf87d6f358fbc3c6e",
+        "signature": "8d0b0656ffc2f973bdea853fc00a3f99122db54fd7a0e13bf87d6f358fbc3c6e"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts": {
+        "version": "213590e0f4f916d3be462f03cf3373ac760895f010cf2a08707931b0aaf35a6d",
+        "signature": "213590e0f4f916d3be462f03cf3373ac760895f010cf2a08707931b0aaf35a6d"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts": {
+        "version": "90e654b460f8ff7a3ff73ec54996290afebf00c8acc0fc634961af1509416db5",
+        "signature": "90e654b460f8ff7a3ff73ec54996290afebf00c8acc0fc634961af1509416db5"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts": {
+        "version": "81fdef0cbc4aeed4e29f7ed43d7b768ebe39e068da55c95bd710f47be289d6ac",
+        "signature": "81fdef0cbc4aeed4e29f7ed43d7b768ebe39e068da55c95bd710f47be289d6ac"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts": {
+        "version": "5b862cc75ad50ea22d5a94c8e8be788541d831689b0533abeb280f638e0e7328",
+        "signature": "5b862cc75ad50ea22d5a94c8e8be788541d831689b0533abeb280f638e0e7328"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts": {
+        "version": "e4db201366aed6e8ec28c4f9e998729477b0825ae7e517441e8000f192b8b033",
+        "signature": "e4db201366aed6e8ec28c4f9e998729477b0825ae7e517441e8000f192b8b033"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts": {
+        "version": "20fb7144dd7a3e5007cc44e96c843879216fd082bf5761bd420715d645eb683e",
+        "signature": "20fb7144dd7a3e5007cc44e96c843879216fd082bf5761bd420715d645eb683e"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts": {
+        "version": "026742bab94860543fde035a6bfd5d5103fab08afbdacf9a207a44b2bb6fccba",
+        "signature": "026742bab94860543fde035a6bfd5d5103fab08afbdacf9a207a44b2bb6fccba"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts": {
+        "version": "eaa8d56bff006bd59e748e0af3354f32a934f58db4835e0f1026e091087a49bf",
+        "signature": "eaa8d56bff006bd59e748e0af3354f32a934f58db4835e0f1026e091087a49bf"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/mocha/index.d.ts": {
+        "version": "0d2394ead194f57249ac193360c6529ff4b4ec675e3499651eed6baf20867102",
+        "signature": "0d2394ead194f57249ac193360c6529ff4b4ec675e3499651eed6baf20867102"
       },
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/globals.d.ts": {
         "version": "1bba2fc2e58c0340b92eeb9185be6e75e27d52f10a315aa65810a19b3277f1c7",
@@ -409,66 +497,6 @@
         "version": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c",
         "signature": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c"
       },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/fs-extra/index.d.ts": {
-        "version": "a609600956f9652b488fe0cd3687deed05ee276a3d6a76000386add895ec9450",
-        "signature": "a609600956f9652b488fe0cd3687deed05ee276a3d6a76000386add895ec9450"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts": {
-        "version": "826e226ef4293d2e692c796d7cc81c94f353c57fd6016685b79d68134e5df047",
-        "signature": "826e226ef4293d2e692c796d7cc81c94f353c57fd6016685b79d68134e5df047"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts": {
-        "version": "24f73778cc712f3d2ff4b69227957577487118bd41652b63c5f913ba12f7631a",
-        "signature": "24f73778cc712f3d2ff4b69227957577487118bd41652b63c5f913ba12f7631a"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts": {
-        "version": "b645de8e8084e4cb7fb9ba2d8e3fd893dc3b5a6568fb7a5027aec4f779ef814d",
-        "signature": "b645de8e8084e4cb7fb9ba2d8e3fd893dc3b5a6568fb7a5027aec4f779ef814d"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts": {
-        "version": "6e88e36ca6d6953fde31898701899e61239b22f09906d5970caac88107a4b01a",
-        "signature": "6e88e36ca6d6953fde31898701899e61239b22f09906d5970caac88107a4b01a"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts": {
-        "version": "8d0b0656ffc2f973bdea853fc00a3f99122db54fd7a0e13bf87d6f358fbc3c6e",
-        "signature": "8d0b0656ffc2f973bdea853fc00a3f99122db54fd7a0e13bf87d6f358fbc3c6e"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts": {
-        "version": "213590e0f4f916d3be462f03cf3373ac760895f010cf2a08707931b0aaf35a6d",
-        "signature": "213590e0f4f916d3be462f03cf3373ac760895f010cf2a08707931b0aaf35a6d"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts": {
-        "version": "90e654b460f8ff7a3ff73ec54996290afebf00c8acc0fc634961af1509416db5",
-        "signature": "90e654b460f8ff7a3ff73ec54996290afebf00c8acc0fc634961af1509416db5"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts": {
-        "version": "81fdef0cbc4aeed4e29f7ed43d7b768ebe39e068da55c95bd710f47be289d6ac",
-        "signature": "81fdef0cbc4aeed4e29f7ed43d7b768ebe39e068da55c95bd710f47be289d6ac"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts": {
-        "version": "5b862cc75ad50ea22d5a94c8e8be788541d831689b0533abeb280f638e0e7328",
-        "signature": "5b862cc75ad50ea22d5a94c8e8be788541d831689b0533abeb280f638e0e7328"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts": {
-        "version": "e4db201366aed6e8ec28c4f9e998729477b0825ae7e517441e8000f192b8b033",
-        "signature": "e4db201366aed6e8ec28c4f9e998729477b0825ae7e517441e8000f192b8b033"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts": {
-        "version": "20fb7144dd7a3e5007cc44e96c843879216fd082bf5761bd420715d645eb683e",
-        "signature": "20fb7144dd7a3e5007cc44e96c843879216fd082bf5761bd420715d645eb683e"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts": {
-        "version": "026742bab94860543fde035a6bfd5d5103fab08afbdacf9a207a44b2bb6fccba",
-        "signature": "026742bab94860543fde035a6bfd5d5103fab08afbdacf9a207a44b2bb6fccba"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts": {
-        "version": "eaa8d56bff006bd59e748e0af3354f32a934f58db4835e0f1026e091087a49bf",
-        "signature": "eaa8d56bff006bd59e748e0af3354f32a934f58db4835e0f1026e091087a49bf"
-      },
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/mocha/index.d.ts": {
-        "version": "0d2394ead194f57249ac193360c6529ff4b4ec675e3499651eed6baf20867102",
-        "signature": "0d2394ead194f57249ac193360c6529ff4b4ec675e3499651eed6baf20867102"
-      },
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/nock/index.d.ts": {
         "version": "9c6b1825e26a38284f409378ff194eca46b40a659ca41169e0922fe18a996ad9",
         "signature": "9c6b1825e26a38284f409378ff194eca46b40a659ca41169e0922fe18a996ad9"
@@ -476,9 +504,19 @@
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/sinon/ts3.1/index.d.ts": {
         "version": "3fdf5e086de03fc17dd943691526d07bc4d951ec223e4685cac5f21d6533de3e",
         "signature": "3fdf5e086de03fc17dd943691526d07bc4d951ec223e4685cac5f21d6533de3e"
+      },
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/yargs/index.d.ts": {
+        "version": "8f3237f03af87871a18d49ff52dec94d71eabecca464d5f2a81e34b55fb60bb5",
+        "signature": "8f3237f03af87871a18d49ff52dec94d71eabecca464d5f2a81e34b55fb60bb5"
       }
     },
     "options": {
+      "baseUrl": "C:/Users/xps/Documents/Programming/Projects/KazanExpress/gits",
+      "paths": {
+        "*": [
+          "types/*"
+        ]
+      },
       "removeComments": false,
       "moduleResolution": 2,
       "module": 1,
@@ -499,9 +537,10 @@
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true,
       "noUnusedParameters": true,
-      "noUnusedLocals": true,
+      "noUnusedLocals": false,
       "noImplicitAny": true,
       "alwaysStrict": true,
+      "skipLibCheck": true,
       "strictNullChecks": true,
       "strictPropertyInitialization": true,
       "resolveJsonModule": true,
@@ -639,11 +678,143 @@
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/args.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/alphabet.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/alphabet.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/metadata.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/parse.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/args.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/metadata.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/help.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/args.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/parse.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/help.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/command.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/hooks.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/pjson.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/manifest.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/command.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/topic.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/plugin.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/command.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/manifest.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/pjson.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/topic.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/config.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/command.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/hooks.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/pjson.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/plugin.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/topic.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/config.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/command.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/hooks.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/manifest.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/pjson.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/plugin.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/topic.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/lib/flags.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/lib/command.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/lib/flags.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/lib/main.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/lib/command.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/lib/flags.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/lib/main.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/chalk/types/index.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts": [
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/color/lib/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/chalk/types/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/colorize.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/color/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/index.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/parse-git-config/index.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -652,149 +823,280 @@
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/alphabet.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/alphabet.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/metadata.d.ts": [
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/parse.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/metadata.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/help.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/index.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/parse.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/help.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/command.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/hooks.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/pjson.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/manifest.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/command.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/topic.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/plugin.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/command.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/manifest.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/pjson.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/topic.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/config.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/command.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/hooks.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/pjson.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/plugin.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/topic.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/config.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/command.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/hooks.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/manifest.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/pjson.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/plugin.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/topic.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/flags.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/command.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/main.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/command.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/main.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/index.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/chalk/types/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/parse-git-config/index.d.ts": [
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/minimist/index.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/clone.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/fs.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/child_process.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/chalk/types/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/color/lib/index.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/parse-git-config/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/minimist/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/colorize.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/install.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/colorize.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/push.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/colorize.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/uninstall.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/colorize.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/config.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/command.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/hooks.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/manifest.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/pjson.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/plugin.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/topic.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/hooks/not-found.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/child_process.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/chai/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/mocha/index.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1062,224 +1364,6 @@
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/globals.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts"
       ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/fs-extra/index.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/fs.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/mocha/index.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/nock/index.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/url.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/index.d.ts",
@@ -1287,6 +1371,10 @@
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/sinon/ts3.1/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/yargs/index.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ]
@@ -1416,11 +1504,138 @@
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/args.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/alphabet.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/alphabet.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/metadata.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/parse.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/args.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/metadata.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/help.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/args.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/parse.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/help.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/command.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/hooks.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/pjson.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/manifest.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/command.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/topic.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/plugin.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/command.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/manifest.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/pjson.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/topic.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/config.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/command.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/hooks.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/pjson.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/plugin.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/topic.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/config.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/command.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/hooks.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/manifest.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/pjson.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/plugin.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/topic.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/lib/flags.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/lib/command.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/lib/flags.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/lib/main.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/lib/command.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/lib/flags.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/lib/main.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/chalk/types/index.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts": [
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/color/lib/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/chalk/types/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/colorize.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/index.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/parse-git-config/index.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1429,74 +1644,32 @@
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/alphabet.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/alphabet.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/metadata.d.ts": [
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/parse.d.ts": [
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/minimist/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/clone.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/metadata.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+        "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts"
       ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/help.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/install.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts"
       ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/index.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/parse.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/help.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/push.ts": [
+        "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts",
+        "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts"
       ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/command.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/hooks.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/pjson.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/manifest.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/command.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/topic.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/plugin.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/command.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/manifest.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/pjson.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/topic.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/config.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/command.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/hooks.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/pjson.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/plugin.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/topic.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/uninstall.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts"
       ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/config.d.ts",
@@ -1509,60 +1682,222 @@
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/flags.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/command.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/main.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/command.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/main.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/index.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/parse-git-config/index.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/clone.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/install.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/push.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/uninstall.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts"
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/hooks/not-found.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts"
       ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/chai/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts": [
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
+        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/mocha/index.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1830,218 +2165,6 @@
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/globals.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts"
       ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/mocha/index.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/nock/index.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/url.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/index.d.ts",
@@ -2052,9 +2175,7 @@
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/fs-extra/index.d.ts": [
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/fs.d.ts",
-        "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/index.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/yargs/index.d.ts": [
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/util.d.ts",
         "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts"
       ]
@@ -2091,32 +2212,54 @@
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/typescript/lib/lib.es2019.symbol.d.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/args.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/alphabet.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/flags.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/metadata.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/parse.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/help.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/parser/lib/index.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/command.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/hooks.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/pjson.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/manifest.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/topic.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/plugin.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/config.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/node_modules/@oclif/config/lib/index.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/lib/flags.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/lib/command.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/lib/main.d.ts",
+      "c:/users/xps/documents/programming/projects/own/command/lib/index.d.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/chalk/types/index.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/alphabet.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/metadata.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/parse.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/help.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/index.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/command.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/hooks.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/pjson.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/manifest.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/topic.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/plugin.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/config.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/flags.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/command.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/main.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/command/lib/index.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/color/lib/index.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/colorize.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/index.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/parse-git-config/index.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/alphabet.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/flags.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/parser/lib/args.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/minimist/index.d.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/install.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/push.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/uninstall.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@oclif/config/lib/index.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/hooks/not-found.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/chai/index.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/mocha/index.d.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/globals.d.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/assert.d.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/async_hooks.d.ts",
@@ -2161,24 +2304,10 @@
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/util.d.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/globals.d.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/node/ts3.2/index.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/common.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/array.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/collection.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/date.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/function.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/lang.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/math.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/number.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/object.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/seq.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/string.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/common/util.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/lodash/index.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/mocha/index.d.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/nock/index.d.ts",
       "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/sinon/ts3.1/index.d.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/clone.ts",
-      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/fs-extra/index.d.ts"
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/node_modules/@types/yargs/index.d.ts",
+      "c:/users/xps/documents/programming/projects/kazanexpress/gits/src/commands/clone.ts"
     ]
   },
   "version": "3.4.1"

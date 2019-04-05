@@ -1,5 +1,7 @@
 import { Command, flags } from '@oclif/command';
+import { Colorized } from '../colorize';
 
+@Colorized
 export default class Uninstall extends Command {
   public static strict = false;
 

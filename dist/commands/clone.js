@@ -2,16 +2,26 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs_1 = require("fs");
 const child_process_1 = require("child_process");
-const chalk_1 = require("chalk");
+const color_1 = require("@oclif/color");
 const parse = require("parse-git-config");
 const command_1 = require("@oclif/command");
-class Clone extends command_1.Command {
+const minimist = require("minimist");
+// @Colorized
+class Clone extends command_1.default {
     async run() {
         const { args, flags } = this.parse(Clone);
         const { repoUrl } = args;
-        const { modules: submodules, /* install, */ shallow } = flags;
-        let submodulesLog = (submodules || []).map(s => chalk_1.default.blueBright(s));
-        let repoLog = chalk_1.default.yellow(repoUrl);
+        try {
+            var submodules = minimist(process.argv)._.slice(2);
+            console.log(submodules);
+        }
+        catch (e) {
+            console.log('eee', e);
+        }
+        submodules = [];
+        const { install, shallow } = flags;
+        let submodulesLog = (submodules || []).map(s => color_1.color.blueBright(s));
+        let repoLog = color_1.color.yellow(repoUrl);
         let submodulesStr = '';
         if (submodulesLog) {
             if (submodulesLog.length > 1) {
@@ -27,31 +37,34 @@ class Clone extends command_1.Command {
             }
         }
         else if (!shallow) {
-            submodulesStr = chalk_1.default.blueBright('all submodules');
+            submodulesStr = color_1.color.blueBright('all submodules');
         }
         submodulesStr = submodulesStr ? `${submodulesStr}` : '';
         const repoName = (repoUrl.match(/([a-z0-9-]+)\.git$/) || [])[1];
         if (!repoName) {
             this.error('Invalid git repo url!', { exit: 1 });
         }
-        console.log(`Cloning ${submodulesStr}\nfrom ${repoLog}\ninto ${process.cwd().replace(/\\/g, '/')}/${repoName}...\n`);
+        this.log(`\nCloning ${submodulesStr}\n\tfrom ${repoLog}\n\tinto ${process.cwd().replace(/\\/g, '/')}/${repoName}...\n`);
         // Clone main repo
         this.cloneRepo(repoUrl, repoName);
+        this.log('\n');
         // Clone submodules
-        this.cloneSubmodules(repoName, submodules);
-        /*
-    
-    
-        if (this.install) {
-          submodules
-        } */
+        const validSubmodules = this.cloneSubmodules(repoName, submodules);
+        if (install) {
+            validSubmodules.forEach(name => {
+                child_process_1.spawnSync('gits', ['install'], {
+                    stdio: 'inherit',
+                    cwd: process.cwd() + '/' + repoName + '/' + name
+                });
+            });
+        }
     }
     cloneRepo(repoUrl, repoName) {
         child_process_1.spawnSync('git', ['clone', repoUrl, repoName], { stdio: 'inherit' });
     }
     cloneSubmodules(repoName, submodules) {
         if (submodules.length === 0) {
-            return;
+            return [];
         }
         const gitmodulesURI = repoName + '/.gitmodules';
         // If no submodules, but passed submodules names as args
@@ -62,15 +75,17 @@ class Clone extends command_1.Command {
             cwd: process.cwd() + '/' + repoName,
             path: '.gitmodules'
         });
-        const submodulePaths = submodules.map(submodule => (gitmodules[`submodule "${submodule}"`].path));
+        const validSubmodules = submodules.filter(s => !!gitmodules[`submodule "${s}"`]);
+        const submodulePaths = validSubmodules.map(submodule => (gitmodules[`submodule "${submodule}"`].path));
         child_process_1.spawnSync('git', ['submodule', 'update', '--init', '--', ...submodulePaths], {
             stdio: 'inherit',
             cwd: process.cwd() + '/' + repoName
         });
+        return validSubmodules;
     }
 }
 Clone.strict = false;
-Clone.usage = 'clone [options] <REPOURL> [-m <submodules>...]';
+Clone.usage = 'clone [options] <REPOURL> [<SUBMODULES>...]';
 Clone.description = 'Clone [--all] submodules from a repo';
 Clone.flags = {
     shallow: command_1.flags.boolean({
