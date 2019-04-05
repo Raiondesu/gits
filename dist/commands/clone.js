@@ -1,41 +1,16 @@
 "use strict";
-// import { existsSync } from 'fs';
-// import { spawnSync } from 'child_process';
 Object.defineProperty(exports, "__esModule", { value: true });
+const fs_1 = require("fs");
+const child_process_1 = require("child_process");
 const chalk_1 = require("chalk");
-// import parse = require('parse-git-config');
+const parse = require("parse-git-config");
 const command_1 = require("@oclif/command");
-// function cloneRepo(repoUrl: string, repoName: string) {
-//   spawnSync('git', ['clone', repoUrl, repoName], { stdio: 'inherit' });
-// }
-// function cloneSubmodules(repoName: string, submodules: string[]) {
-//   if (submodules.length === 0) {
-//     return;
-//   }
-//   const gitmodulesURI = repoName + '/.gitmodules';
-//   // If no submodules, but passed submodules names as args
-//   if (!existsSync(gitmodulesURI) && submodules && submodules.length > 0) {
-//     throw new Error(`Repository ${repoName} does not contain any submodules!`);
-//   }
-//   const gitmodules = parse.sync({
-//     cwd: process.cwd() + '/' + repoName,
-//     path: '.gitmodules'
-//   });
-//   const submodulePaths = submodules.map(submodule => (
-//     gitmodules[`submodule "${submodule}"`].path
-//   ));
-//   spawnSync('git', ['submodule', 'update', '--init', '--', ...submodulePaths], {
-//     stdio: 'inherit',
-//     cwd: process.cwd() + '/' + repoName
-//   });
-// }
 class Clone extends command_1.Command {
     async run() {
         const { args, flags } = this.parse(Clone);
         const { repoUrl } = args;
         const { modules: submodules, /* install, */ shallow } = flags;
-        console.log(args, flags);
-        let submodulesLog = submodules.map(s => chalk_1.default.blueBright(s));
+        let submodulesLog = (submodules || []).map(s => chalk_1.default.blueBright(s));
         let repoLog = chalk_1.default.yellow(repoUrl);
         let submodulesStr = '';
         if (submodulesLog) {
@@ -51,7 +26,7 @@ class Clone extends command_1.Command {
                 submodulesStr = 'shallow';
             }
         }
-        if (!shallow) {
+        else if (!shallow) {
             submodulesStr = chalk_1.default.blueBright('all submodules');
         }
         submodulesStr = submodulesStr ? `${submodulesStr}` : '';
@@ -59,18 +34,39 @@ class Clone extends command_1.Command {
         if (!repoName) {
             this.error('Invalid git repo url!', { exit: 1 });
         }
-        console.log(`Cloning ${submodulesStr}\nfrom ${repoLog}\ninto ${process.cwd().replace(/\\/g, '/')}/${repoName}...`);
+        console.log(`Cloning ${submodulesStr}\nfrom ${repoLog}\ninto ${process.cwd().replace(/\\/g, '/')}/${repoName}...\n`);
+        // Clone main repo
+        this.cloneRepo(repoUrl, repoName);
+        // Clone submodules
+        this.cloneSubmodules(repoName, submodules);
         /*
     
-        // Clone main repo
-        cloneRepo(repoUrl, repoName);
-    
-        // Clone submodules
-        cloneSubmodules(repoName, submodules);
     
         if (this.install) {
           submodules
         } */
+    }
+    cloneRepo(repoUrl, repoName) {
+        child_process_1.spawnSync('git', ['clone', repoUrl, repoName], { stdio: 'inherit' });
+    }
+    cloneSubmodules(repoName, submodules) {
+        if (submodules.length === 0) {
+            return;
+        }
+        const gitmodulesURI = repoName + '/.gitmodules';
+        // If no submodules, but passed submodules names as args
+        if (!fs_1.existsSync(gitmodulesURI) && submodules && submodules.length > 0) {
+            throw new Error(`Repository ${repoName} does not contain any submodules!`);
+        }
+        const gitmodules = parse.sync({
+            cwd: process.cwd() + '/' + repoName,
+            path: '.gitmodules'
+        });
+        const submodulePaths = submodules.map(submodule => (gitmodules[`submodule "${submodule}"`].path));
+        child_process_1.spawnSync('git', ['submodule', 'update', '--init', '--', ...submodulePaths], {
+            stdio: 'inherit',
+            cwd: process.cwd() + '/' + repoName
+        });
     }
 }
 Clone.strict = false;
@@ -98,6 +94,7 @@ Clone.args = [
     {
         name: 'repoUrl',
         description: 'Repository URL for cloning',
+        required: true
     }
 ];
 exports.default = Clone;
