@@ -32,11 +32,13 @@ export default function (program: typeof import('commander')) {
     }
 
     if (config.options) {
+      const optionDescPadding = '               '
+
       config.options.forEach(option => {
         option[1] = chalk.cyanBright(
           option[1]
             .replace(/^\n\s*/, '')
-            .replace(/\n\s*/g, '\n               ')
+            .replace(/\n\s*/g, '\n' + optionDescPadding)
         );
 
         localCommand.option.apply(localCommand, option);
