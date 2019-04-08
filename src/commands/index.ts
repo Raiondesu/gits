@@ -33,7 +33,11 @@ export default function (program: typeof import('commander')) {
 
     if (config.options) {
       config.options.forEach(option => {
-        option[1] = chalk.cyanBright(option[1]);
+        option[1] = chalk.cyanBright(
+          option[1]
+            .replace(/^\n\s*/, '')
+            .replace(/\n\s*/g, '\n               ')
+        );
 
         localCommand.option.apply(localCommand, option);
       });
