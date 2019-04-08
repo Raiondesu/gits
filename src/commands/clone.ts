@@ -22,8 +22,11 @@ export default {
       '-s, --shallow', `
         If no submodules passed - do not clone submodules (identical to a simple git clone),
         if passed submodules - do not install dependencies (clone only the first level)
-      `
-    ],
+    `],
+
+    ['-d, --dir', `
+      Custom directory for cloning
+    `]
   ],
 
   action(repoUrl: string, submodules: string[]) {
