@@ -28,7 +28,7 @@ export default function (program: typeof import('commander')) {
     }
 
     if (config.description) {
-      localCommand.description('|  ' + chalk.greenBright(config.description));
+      localCommand.description(chalk.greenBright(config.description));
     }
 
     if (config.options) {
