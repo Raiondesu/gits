@@ -1,9 +1,7 @@
+import chalk from 'chalk';
 import { spawnSync } from 'child_process';
 
-import chalk from 'chalk';
-
 import { ICommandConfig } from '.';
-
 import Install from './install';
 
 function cloneRepo(repoUrl: string, repoName: string) {
@@ -18,10 +16,9 @@ export default {
   alias: 'c',
 
   options: [
-    [
-      '-s, --shallow', `
-        If no submodules passed - do not clone submodules (identical to a simple git clone),
-        if passed submodules - do not install dependencies (clone only the first level)
+    ['-s, --shallow', `
+      If no submodules passed - do not clone submodules (identical to a simple git clone),
+      if passed submodules - do not install dependencies (clone only the first level)
     `],
 
     ['-d, --dir', `
@@ -72,10 +69,10 @@ export default {
     );
 
     // Clone main repo
-    cloneRepo(repoUrl, repoName);
+    cloneRepo(repoUrl, this.dir || repoName);
 
-    if (submodules.length > 0 && !this.shallow) {
-      Install.action.apply(this, [repoName, submodules]);
+    if (submodules.length > 0 || !this.shallow) {
+      Install.action.apply(this, [repoName, submodules, this.shallow]);
     }
   }
 } as ICommandConfig;
