@@ -2,6 +2,7 @@ import { ICommandConfig } from '.';
 import { existsSync } from 'fs';
 import { spawnSync } from 'child_process';
 import parse = require('parse-git-config');
+import chalk from 'chalk';
 
 export default {
   syntax: 'install [<path>] [<submodules...>]',
@@ -23,7 +24,7 @@ export default {
       A custom path for installation of all new dependencies
     `],
 
-    ['-o, --org', `
+    ['-o, --origin <origin>', `
       Organization or user alias to refer to by default,
       or a URL origin of repositories
     `],
@@ -58,26 +59,28 @@ export default {
       path: '.gitmodules'
     });
 
-    let submodulePaths: string[];
+    const submodulePaths: string[] = Object.values(gitmodules).map(v => v.path);;
 
-    console.log('here', passedSubmodules);
-
-    if (!passedSubmodules) {
-      submodulePaths = Object.values(gitmodules).map(v => v.path);
-    } else {
+    if (passedSubmodules) {
       const newSubmodules = submodules!.filter(s => !gitmodules[`submodule "${s}"`]);
 
-      console.log('new', newSubmodules);
+      console.log(chalk.greenBright`Installing new dependencies: ${newSubmodules.join(', ')}`);
 
       if (newSubmodules.length > 0) {
         newSubmodules.forEach(submoduleURL => {
-          let submoduleName;
+          let submoduleName: string;
 
-          if (!this.org) {
+          if (!this.origin) {
             submoduleName = (submoduleURL.match(/([a-z0-9-]+)\.git$/) || [])[1];
+          } else if (this.origin.startsWith('http')) {
+            submoduleName = submoduleURL;
+            submoduleURL = `${this.origin}/${submoduleURL}.git`;
           } else {
-            submoduleName = `https://github.com/${this.org}/${submoduleURL}.git`
+            submoduleName = submoduleURL;
+            submoduleURL = `https://github.com/${this.origin}/${submoduleURL}.git`;
           }
+
+          const path = (this.path || '.') + '/' + submoduleName;
 
           // Add new submodules by their repo names
           spawnSync('git', [
@@ -85,19 +88,18 @@ export default {
               'add',
               '--force',
               '--name', submoduleName,
-              '--', submoduleURL
-            ].concat(this.path ? [this.path + '/' + submoduleName] : []),
+              '--', submoduleURL,
+              path
+            ],
             {
               stdio: 'inherit',
               cwd: process.cwd() + '/' + repoName
             }
           );
+
+          submodulePaths.push(path);
         });
       }
-
-      submodulePaths = submodules!.map(submodule => (
-        gitmodules[`submodule "${submodule}"`].path
-      ));
     }
 
     spawnSync('git', ['submodule', 'update', '--init', ...(!this.shallow ? ['--recursive'] : []), '--', ...submodulePaths], {
