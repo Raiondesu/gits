@@ -1,43 +1,13 @@
-import { existsSync } from 'fs';
 import { spawnSync } from 'child_process';
 
 import chalk from 'chalk';
-import parse = require('parse-git-config');
 
 import { ICommandConfig } from '.';
 
+import Install from './install';
+
 function cloneRepo(repoUrl: string, repoName: string) {
   spawnSync('git', ['clone', repoUrl, repoName], { stdio: 'inherit' });
-}
-
-function cloneSubmodules(repoName: string, submodules: string[]) {
-  if (submodules.length === 0) {
-    return;
-  }
-
-  const gitmodulesURI = repoName + '/.gitmodules';
-
-  // If no submodules, but passed submodules names as args
-  if (!existsSync(gitmodulesURI) && submodules && submodules.length > 0) {
-    throw new Error(`Repository ${repoName} does not contain any submodules!`);
-  }
-
-  const gitmodules = parse.sync({
-    cwd: process.cwd() + '/' + repoName,
-    path: '.gitmodules'
-  });
-
-
-  const validSubmodules = submodules.filter(s => !!gitmodules[`submodule "${s}"`]);
-
-  const submodulePaths = validSubmodules.map(submodule => (
-    gitmodules[`submodule "${submodule}"`].path
-  ));
-
-  spawnSync('git', ['submodule', 'update', '--init', '--', ...submodulePaths], {
-    stdio: 'inherit',
-    cwd: process.cwd() + '/' + repoName
-  });
 }
 
 export default {
@@ -48,8 +18,12 @@ export default {
   alias: 'c',
 
   options: [
-    ['-s, --shallow', 'Do not clone submodules (identical to a simple git clone)'],
-    ['-i, --install', 'Install all dependencies recursively (identical to git clone --recursive)']
+    [
+      '-s, --shallow', `
+        If no submodules passed - do not clone submodules (identical to a simple git clone),
+        if passed submodules - do not install dependencies (clone only the first level)
+      `
+    ],
   ],
 
   action(repoUrl: string, submodules: string[]) {
@@ -71,9 +45,9 @@ export default {
       }
     }
 
-    if (this.shallow) {
-      submodulesStr = chalk.blueBright('all submodules');
-    }
+    // if (this.shallow) {
+      // submodulesStr = chalk.blueBright('all submodules');
+    // }
 
     submodulesStr = submodulesStr ? `${submodulesStr}` : '';
 
@@ -97,14 +71,8 @@ export default {
     // Clone main repo
     cloneRepo(repoUrl, repoName);
 
-    // Clone submodules
-    cloneSubmodules(repoName, submodules);
-
-    if (this.install) {
-      spawnSync('gits', ['install'], {
-        stdio: 'inherit',
-        cwd: process.cwd() + '/' + repoName
-      });
+    if (submodules.length > 0 && !this.shallow) {
+      Install.action.apply(this, [repoUrl, submodules]);
     }
   }
 } as ICommandConfig;
