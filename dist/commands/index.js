@@ -16,11 +16,14 @@ function default_1(program) {
             localCommand.alias(config.alias);
         }
         if (config.description) {
-            localCommand.description('|  ' + chalk_1.default.greenBright(config.description));
+            localCommand.description(chalk_1.default.greenBright(config.description));
         }
         if (config.options) {
+            var optionDescPadding_1 = '               ';
             config.options.forEach(function (option) {
-                option[1] = chalk_1.default.cyanBright(option[1]);
+                option[1] = chalk_1.default.cyanBright(option[1]
+                    .replace(/^\n\s*/, '')
+                    .replace(/\n\s*/g, '\n' + optionDescPadding_1));
                 localCommand.option.apply(localCommand, option);
             });
         }
