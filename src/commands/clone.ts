@@ -12,7 +12,7 @@ function cloneRepo(repoUrl: string, repoName: string) {
 
 function cloneSubmodules(repoName: string, submodules: string[]) {
   if (submodules.length === 0) {
-    return [];
+    return;
   }
 
   const gitmodulesURI = repoName + '/.gitmodules';
@@ -38,8 +38,6 @@ function cloneSubmodules(repoName: string, submodules: string[]) {
     stdio: 'inherit',
     cwd: process.cwd() + '/' + repoName
   });
-
-  return validSubmodules;
 }
 
 export default {
@@ -47,8 +45,10 @@ export default {
 
   description: 'Clone submodules from a repo',
 
+  alias: 'c',
+
   options: [
-    ['--shalow', 'Do not clone submodules (identical to a simple git clone)'],
+    ['-s, --shallow', 'Do not clone submodules (identical to a simple git clone)'],
     ['-i, --install', 'Install all dependencies recursively (identical to git clone --recursive)']
   ],
 
@@ -84,28 +84,26 @@ export default {
       return process.exit(1);
     }
 
-    this.log(
+    console.log(
       `\nCloning ${
         submodulesStr
       }\n\tfrom ${
         repoLog
       }\n\tinto ${
         process.cwd().replace(/\\/g, '/')
-      }/${repoName}...\n`
+      }/${chalk.yellowBright(repoName)}...\n`
     );
 
     // Clone main repo
     cloneRepo(repoUrl, repoName);
 
     // Clone submodules
-    const validSubmodules = cloneSubmodules(repoName, submodules);
+    cloneSubmodules(repoName, submodules);
 
     if (this.install) {
-      validSubmodules.forEach(name => {
-        spawnSync('gits', ['install'], {
-          stdio: 'inherit',
-          cwd: process.cwd() + '/' + repoName + '/' + name
-        });
+      spawnSync('gits', ['install'], {
+        stdio: 'inherit',
+        cwd: process.cwd() + '/' + repoName
       });
     }
   }

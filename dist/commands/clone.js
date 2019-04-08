@@ -9,7 +9,7 @@ function cloneRepo(repoUrl, repoName) {
 }
 function cloneSubmodules(repoName, submodules) {
     if (submodules.length === 0) {
-        return [];
+        return;
     }
     var gitmodulesURI = repoName + '/.gitmodules';
     // If no submodules, but passed submodules names as args
@@ -26,13 +26,13 @@ function cloneSubmodules(repoName, submodules) {
         stdio: 'inherit',
         cwd: process.cwd() + '/' + repoName
     });
-    return validSubmodules;
 }
 exports.default = {
     syntax: 'clone <repo> [submodules...]',
     description: 'Clone submodules from a repo',
+    alias: 'c',
     options: [
-        ['--shalow', 'Do not clone submodules (identical to a simple git clone)'],
+        ['-s, --shallow', 'Do not clone submodules (identical to a simple git clone)'],
         ['-i, --install', 'Install all dependencies recursively (identical to git clone --recursive)']
     ],
     action: function (repoUrl, submodules) {
@@ -61,17 +61,15 @@ exports.default = {
             console.error('Invalid git repo url!');
             return process.exit(1);
         }
-        this.log("\nCloning " + submodulesStr + "\n\tfrom " + repoLog + "\n\tinto " + process.cwd().replace(/\\/g, '/') + "/" + repoName + "...\n");
+        console.log("\nCloning " + submodulesStr + "\n\tfrom " + repoLog + "\n\tinto " + process.cwd().replace(/\\/g, '/') + "/" + chalk_1.default.yellowBright(repoName) + "...\n");
         // Clone main repo
         cloneRepo(repoUrl, repoName);
         // Clone submodules
-        var validSubmodules = cloneSubmodules(repoName, submodules);
+        cloneSubmodules(repoName, submodules);
         if (this.install) {
-            validSubmodules.forEach(function (name) {
-                child_process_1.spawnSync('gits', ['install'], {
-                    stdio: 'inherit',
-                    cwd: process.cwd() + '/' + repoName + '/' + name
-                });
+            child_process_1.spawnSync('gits', ['install'], {
+                stdio: 'inherit',
+                cwd: process.cwd() + '/' + repoName
             });
         }
     }
