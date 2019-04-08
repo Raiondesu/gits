@@ -44,7 +44,7 @@ exports.default = {
         // Clone main repo
         cloneRepo(repoUrl, this.dir || repoName);
         if (submodules.length > 0 || !this.shallow) {
-            install_1.default.action.apply(this, [repoName, submodules, this.shallow]);
+            install_1.default.install.apply(this, [submodules, repoName, this.shallow]);
         }
     }
 };

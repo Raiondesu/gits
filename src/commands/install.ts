@@ -18,32 +18,8 @@ type DependencyMap = { [name: string]: IGitmodule };
 
 const dependencies: DependencyMap = {};
 
-/**
- * Extracts submodules from a .gitmodules file of repo
- * and remembers them as depemdencies by name
- *
- * @param {string} repoName - the name of the repository's folder
- */
-function getModules(repoName: string) {
-  const cwd = process.cwd() + '/' + repoName;
-
-  const gitmodules: DependencyMap = parse.sync({
-    cwd,
-    path: '.gitmodules'
-  });
-
-  return {
-    gitmodules,
-
-    submodulePaths: Object.keys(gitmodules).map(gitmodule => {
-      const submoduleProps: IGitmodule = gitmodules[gitmodule];
-      dependencies[submoduleProps.url] = submoduleProps;
-
-      dependencies[submoduleProps.url].path = cwd + '/' + dependencies[submoduleProps.url].path;
-
-      return submoduleProps.path;
-    })
-  };
+function getSubmodule(gitmodules: DependencyMap, submodule: string) {
+  return gitmodules[`submodule "${submodule}"`];
 }
 
 const install: ICommandConfig = {
@@ -71,12 +47,15 @@ const install: ICommandConfig = {
     `],
 
     ['-s, --shallow', `
-      Organization or user alias to refer to by default,
-      or a URL origin of repositories
+
     `]
   ],
 
-  action(submodules?: string[], repoPath?: string, shallow?: boolean) {
+  action(submodules?: string[]) {
+    install.install.apply(this, [submodules]);
+  },
+
+  install(this: import('commander').CommanderStatic, submodules?: string[], repoPath?: string, shallow?: boolean) {
     this.shallow = shallow || this.shallow;
 
     if (!repoPath) {
@@ -92,50 +71,76 @@ const install: ICommandConfig = {
 
     // If no submodules, but passed submodules names as args
     if (!existsSync(gitmodulesURI) && passedSubmodules) {
-      console.error(`Repository ${repoPath} does not contain any submodules!`);
+      // init submodules
     }
 
-    const { gitmodules, submodulePaths } = getModules(repoPath);
+    const cwd = process.cwd() + (repoPath && repoPath === '.' ? '' : ('/' + repoPath));
+
+    const gitmodules: DependencyMap = parse.sync({
+      cwd,
+      path: '.gitmodules'
+    });
+
+    let submodulePaths: string[] = [];
 
     if (passedSubmodules) {
       const newSubmodules = submodules!.filter(s => !gitmodules[`submodule "${s}"`]);
 
-      console.log(chalk.greenBright`Installing new dependencies: ${newSubmodules.join(', ')}`);
-
       if (newSubmodules.length > 0) {
-        newSubmodules.forEach(submoduleURL => {
-          let submoduleName: string;
-
-          if (!this.origin) {
-            submoduleName = (submoduleURL.match(/([a-z0-9-]+)\.git$/) || [])[1];
-          } else if (this.origin.startsWith('http')) {
-            submoduleName = submoduleURL;
-            submoduleURL = `${this.origin}/${submoduleURL}.git`;
-          } else {
-            submoduleName = submoduleURL;
-            submoduleURL = `https://github.com/${this.origin}/${submoduleURL}.git`;
-          }
-
-          const path = (this.path || '.') + '/' + submoduleName;
-
-          // Add new submodules by their repo names
-          spawnSync('git', [
-              'submodule',
-              'add',
-              '--force',
-              '--name', submoduleName,
-              '--', submoduleURL,
-              path
-            ],
-            {
-              stdio: 'inherit',
-              cwd: process.cwd() + '/' + repoPath
-            }
-          );
-
-          submodulePaths.push(path);
-        });
+        console.log(chalk.greenBright(`Installing new dependencies: ${newSubmodules.join(' ')}`));
       }
+
+      for (const subName of submodules!) {
+        let submoduleName: string = subName;
+        let submoduleURL: string = subName;
+
+        if (!this.origin) {
+          submoduleName = (subName.match(/([a-z0-9-]+)\.git$/) || [])[1];
+        } else {
+          if (this.origin.startsWith('http')) {
+            submoduleURL = `${this.origin}/${subName}.git`;
+          } else {
+            submoduleURL = `https://github.com/${this.origin}/${subName}`;
+          }
+        }
+
+        const gitmodule = getSubmodule(gitmodules, submoduleName);
+        const backupPath = (this.path || '.') + '/' + submoduleName;
+
+        const path = gitmodule ? gitmodule.path : backupPath;
+
+        submodulePaths.push(path);
+
+        // Symlink a dependency, if already met before
+        if (dependencies[submoduleURL]) {
+          // TODO: it's not enough, redo this
+          symlinkSync(path, dependencies[submoduleURL].path, 'dir');
+        }
+
+        // Add new submodules by their repo names
+        spawnSync('git', [
+            'submodule',
+            'add',
+            '--force',
+            '--name', submoduleName,
+            '--', submoduleURL,
+            path
+          ],
+          {
+            stdio: 'inherit',
+            cwd: process.cwd() + '/' + repoPath
+          }
+        );
+      }
+    } else {
+      submodulePaths = Object.keys(gitmodules).map(gitmodule => {
+        const submoduleProps: IGitmodule = gitmodules[gitmodule];
+        dependencies[submoduleProps.url] = submoduleProps;
+
+        dependencies[submoduleProps.url].path = cwd + '/' + dependencies[submoduleProps.url].path;
+
+        return submoduleProps.path;
+      });
     }
 
     spawnSync('git', ['submodule', 'update', '--init', ...(!this.shallow ? ['--recursive'] : []), '--', ...submodulePaths], {
@@ -144,7 +149,9 @@ const install: ICommandConfig = {
     });
 
     submodulePaths.forEach(path => {
-      install.action.call(this, [, path]);
+      if (existsSync(path + '/.gitmodules')) {
+        install.action.call(this, [, path]);
+      }
     });
   }
 };

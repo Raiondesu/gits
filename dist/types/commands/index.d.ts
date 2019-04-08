@@ -4,5 +4,6 @@ export interface ICommandConfig {
     options?: [string, string][];
     alias?: string;
     action(this: typeof import('commander'), ...args: any[]): void;
+    [key: string]: any;
 }
 export default function (program: typeof import('commander')): void;

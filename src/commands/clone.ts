@@ -72,7 +72,7 @@ export default {
     cloneRepo(repoUrl, this.dir || repoName);
 
     if (submodules.length > 0 || !this.shallow) {
-      Install.action.apply(this, [repoName, submodules, this.shallow]);
+      Install.install.apply(this, [submodules, repoName, this.shallow]);
     }
   }
 } as ICommandConfig;
